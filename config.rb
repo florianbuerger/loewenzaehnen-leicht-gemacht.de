@@ -17,6 +17,15 @@ page '/*.txt', layout: false
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
 # General configuration
+set :haml, { :ugly => true, :format => :html5 }
+
+# Enable blogging
+activate :blog do |blog|
+  # set options on blog
+end
+
+# Enable pretty URLs
+activate :directory_indexes
 
 # Reload the browser automatically whenever files change
 configure :development do
