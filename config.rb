@@ -21,7 +21,7 @@ set :haml, { :ugly => true, :format => :html5 }
 
 # Enable blogging
 activate :blog do |blog|
-  # set options on blog
+  blog.permalink = "blog/{category}/{title}.html"
 end
 
 # Enable pretty URLs

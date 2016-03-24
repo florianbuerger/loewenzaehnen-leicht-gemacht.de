@@ -1,67 +1,96 @@
 @charset "utf-8";
 @import "normalize";
 
+// colors
+$background-dark: #00272D;
+$background-bright: #fbfbfb;
+$font-dark: #00272D;
+$font-bright: #fbfbfb;
+
+
+
+// header
+header {
+  height: 50px;
+  background-color: $background-bright;
+  margin: 0 auto;
+  width: 1020px;
+  font-size: 1.25em;
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+
+
+
+header ul {
+  display: flex;
+}
+
+.site-title {
+  font-weight: 800;
+  
+}
+
+
+.header-menu {
+
+}
+
+
+
+// footer
+footer {
+  background: $background-dark;
+}
+
+
+
+
+
+
 body {
-  background: #ECC561;
-  text-align: center;
+  background: $background-bright;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
 }
 
-.logo img {
-  height: 18.75em;
-  margin-top: 6em;
-}
-
 h1 {
-  color: rgba(0,0,0,0.5);
+  color: $font-dark;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.8em;
   font-weight: 400;
-  margin: 0;
 }
 
-.doc {
-  margin: 3em 0;
+h2 {
+  color: $font-dark;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.1em;
-  font-weight: 300;
+  font-size: 1.5em;
+  font-weight: 400;
+}
 
-  a {
-    border: 1px solid white;
-    border-radius: 3px;
-    padding: 0.75em 0.7em;
-    color: white;
+h3 {
+  color: $font-dark;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+
+a {
     text-decoration: none;
-    transition: color 0.1s linear;
-    &:hover {
-      background: rgba(0,0,0,0.2);
-      color: white;
-      transition: all 0.15s linear;
-    }
+    color: $font-dark;
+&:hover {
+      color: $font-dark;
+      border-bottom: 2px solid $font-dark;
+      padding-bottom: 10px;
   }
 }
 
-.welcome {
-  -webkit-animation-name: welcome;
-  -webkit-animation-duration: .9s;
-}
-
-@-webkit-keyframes welcome {
-  from {
-    -webkit-transform: scale(0);
-    opacity: 0;
-  }
-  50% {
-   -webkit-transform: scale(0);
-   opacity: 0;
-  }
-  82.5% {
-    -webkit-transform: scale(1.03);
-    -webkit-animation-timing-function: ease-out;
-    opacity: 1;
-  }
-  to {
-    -webkit-transform: scale(1);
-  }
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }

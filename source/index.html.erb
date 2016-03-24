@@ -1,20 +1,12 @@
----
-title: Welcome to Middleman
----
+<% blog.articles[0...7].each do |article| %>
+  <article>
+    <h1>
+      <a href="<%= article.url %>"><%= article.title %></a>
+      <time><%= article.date.strftime('%b %e %Y') %></time>
+    </h1>
 
-.welcome
-  .logo= image_tag "middleman-logo.svg"
-  %h1 Middleman in Running
-  %p.doc= link_to "Read Documentation Online", "https://middlemanapp.com", target: "_blank"
+    <%= article.summary %>
 
-<!-- <div class="welcome">
-  <div class="logo">
-    <%= image_tag "middleman-logo.svg" %>
-  </div>
-  <h1>Middleman is Running</h1>
-  <p class="doc">
-    <%= link_to "Read Documentation Online", "https://middlemanapp.com", target: "_blank" %>
-  </p>
-</div>
- -->
- 
+    <a href="<%= article.url %>">Read more</a>
+  </article>
+<% end %>
