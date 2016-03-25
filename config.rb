@@ -20,6 +20,7 @@ page '/*.txt', layout: false
 activate :blog do |blog|
     blog.sources = "posts/{year}-{month}-{day}-{title}.html"
     blog.permalink = "{title}.html"
+    blog.layout = "article_layout"
 end
 
 # Enable pretty URLs

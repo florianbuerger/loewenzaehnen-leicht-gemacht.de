@@ -1,0 +1,13 @@
+<% wrap_layout :master do %>
+<article>
+  <section class="article-hero">
+    <div class="overlay">
+      <h1 class="article-title"><%= current_article.title %></h1>
+      <h2 class="article-subtitle"><%= current_article.data.subtitle %></h2>
+      <h3 class="article-date"><%= current_article.date %></h3>
+    </div>
+    <img src=<%= current_article.data.hero_image %> alt=<%= current_article.title %>>
+  </section>
+  <%= yield %>
+</article>
+<% end %>
