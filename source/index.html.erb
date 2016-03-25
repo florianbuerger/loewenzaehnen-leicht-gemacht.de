@@ -1,12 +1,18 @@
+---
+layout: index
+---
+
 <% blog.articles[0...7].each do |article| %>
   <article>
-    <h1>
+    <h1 class="title-post-index">
       <a href="<%= article.url %>"><%= article.title %></a>
-      <time><%= article.date.strftime('%b %e %Y') %></time>
     </h1>
 
-    <%= article.summary %>
+    <h3 class="subtitle-post-index">
+       <%= article.data.subtitle %></a>
+    </h3>
 
-    <a href="<%= article.url %>">Read more</a>
+    <time><%= article.date.strftime('%b %e %Y') %></time>
+
   </article>
 <% end %>
