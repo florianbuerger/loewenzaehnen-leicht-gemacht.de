@@ -1,22 +1,22 @@
 var gulp = require('gulp');
 var cp = require('child_process');
 var browserSync = require('browser-sync');
-var clean = require('gulp-clean');
 
 gulp.task('css', function() {
-    var postcss    = require('gulp-postcss');
+    var postcss = require('gulp-postcss');
     var sourcemaps = require('gulp-sourcemaps');
+    var cssnano = require('cssnano');
+    var autoprefixer = require('autoprefixer');
+    var processors = [
+      autoprefixer({browsers: ['last 1 version']}),
+      cssnano(),
+    ]
 
     return gulp.src('css/*.css')
         .pipe( sourcemaps.init() )
-        .pipe( postcss([ require('autoprefixer'), require('precss') ]) )
+        .pipe(postcss(processors))
         .pipe( sourcemaps.write('.') )
-        .pipe( gulp.dest('_site/') );
-});
-
-gulp.task('clean', function() {
-  return gulp.src(['css', 'js'], {read: false})
-    .pipe(clean());
+        .pipe( gulp.dest('_site/css') );
 });
 
 /**
@@ -35,10 +35,14 @@ gulp.task('jekyll-rebuild', ['jekyll-build', 'css'], function () {
     browserSync.reload();
 });
 
+gulp.task('css-reload', ['css'], function() {
+  browserSync.reload();
+});
+
 /**
  * Wait for jekyll-build, then launch the Server
  */
-gulp.task('browser-sync', ['jekyll-build'], function() {
+gulp.task('browser-sync', ['jekyll-build', 'css'], function() {
     browserSync({
         server: {
             baseDir: '_site'
@@ -48,10 +52,12 @@ gulp.task('browser-sync', ['jekyll-build'], function() {
 });
 
 gulp.task('watch', function() {
+  // Watch for .css changes adn reload after post-CSS has run
+  gulp.watch(['css/*'], ['css-reload']);
   // Watch .html files and posts
   gulp.watch(['index.html', '_includes/*.html', '_layouts/*.html', '*.md', '*.markdown', '_posts/*'], ['jekyll-rebuild']);
 });
 
-gulp.task('default', ['clean'], function() {
+gulp.task('default', function() {
     gulp.start('browser-sync', 'watch');
 });
