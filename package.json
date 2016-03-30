@@ -1,0 +1,28 @@
+{
+  "name": "loewenzaehnen-leicht-gemacht",
+  "version": "1.0.0",
+  "description": "Travel blog from Verena Ortlieb & Florian Buerger",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-postcss": "^6.1.0",
+    "gulp-sourcemaps": "^1.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florianbuerger/loewenzaehnen-leicht-gemacht.de.git"
+  },
+  "author": "Florian Buerger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/florianbuerger/loewenzaehnen-leicht-gemacht.de/issues"
+  },
+  "homepage": "https://github.com/florianbuerger/loewenzaehnen-leicht-gemacht.de#readme"
+}
