@@ -6,10 +6,16 @@ gulp.task('css', function() {
     var postcss = require('gulp-postcss');
     var sourcemaps = require('gulp-sourcemaps');
     var cssnano = require('cssnano');
-    var autoprefixer = require('autoprefixer');
+    var atImport = require('postcss-import');
+    var cssnext = require('postcss-cssnext');
     var processors = [
-      autoprefixer({browsers: ['last 1 version']}),
-      cssnano(),
+      atImport(),
+      cssnext({
+              autoprefixer: {
+                browsers: ['IE >= 9']
+              }
+            }),
+      cssnano()
     ]
 
     return gulp.src('css/*.css')
@@ -55,7 +61,7 @@ gulp.task('watch', function() {
   // Watch for .css changes adn reload after post-CSS has run
   gulp.watch(['css/*'], ['css-reload']);
   // Watch .html files and posts
-  gulp.watch(['index.html', '_includes/*.html', '_layouts/*.html', '*.md', '*.markdown', '_posts/*'], ['jekyll-rebuild']);
+  gulp.watch(['*.html', '_includes/*.html', '_layouts/*.html', '*.md', '*.markdown', '_posts/*'], ['jekyll-rebuild']);
 });
 
 gulp.task('default', function() {
