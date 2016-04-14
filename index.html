@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% for post in site.posts %}
-  <div class="white p2 my2" style="background-image: url('{{ post.image }}')">
+  <div class="white p2 mb4 index-img" style="background-image: url('{{ post.image }}')">
         <h3>{{ post.date | date: "%-d %B %Y"}}</h3>
         <h1><a class="white" href="{{ post.url }}">{{ post.title }}</a></h1>
         <h2>{{ post.subtitle }}</h2>

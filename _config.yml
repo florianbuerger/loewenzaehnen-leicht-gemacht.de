@@ -9,7 +9,7 @@
 title: Löwenzähnen Leicht Gemacht
 email: loewen@florianbuerger.com
 description: > # this means to ignore newlines until "baseurl:"
-  Reiseblog von Verena Ortlieb und Florian Bürger
+  Reiseblog von Verena und Flo
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://loewenzaehnen-leicht-gemacht.de" # the base hostname & protocol for your site
 
