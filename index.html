@@ -2,11 +2,11 @@
 layout: default
 ---
 
-{% for post in site.posts %}
+{% for post in site.posts limit:3 %}
 <div class="index-box">
   <a href="{{ post.url }}">
     <div class="index-img"style="background-image: url('{{ post.image }}')">
-        <h3>{{ post.date | date: "%-d %B %Y"}}</h3>
+        <h3>{{ post.date| date: "%-d %B %Y"}}</h3>
         <h1>{{ post.title }}</h1>
         <h2>{{ post.subtitle }}</h2>
     </div>
