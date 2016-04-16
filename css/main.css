@@ -7,8 +7,6 @@
   font-size: 16px;
 }
 
-;
-
 body {
   font-family: monospace;
   color: black;
@@ -93,30 +91,18 @@ header {
   width: 100%;
 }
 
-/*index*/
+/*
+  Index
+*/
 .index-box a {
   color: white;
 }
 
 .index-img {
-  height: 600px;
+  height: 40em;
   padding: 2em;
   margin-bottom: 2em;
-  align-content: flex-end;
-}
-
-.image-with-text {
-  position: relative;
-  width: 100%;
-}
-
-.text-on-image {
-  position: absolute;
-  bottom: 4em;
-  left: 2em;
-  color: black;
-  background-color: white;
-  padding: 1em;
+  background-size: cover;
 }
 
 /*posts*/
@@ -135,6 +121,20 @@ header {
 .container-gallery div img {
   width: 100%;
   height: auto;
+}
+
+.image-with-text {
+  position: relative;
+  width: 100%;
+}
+
+.text-on-image {
+  position: absolute;
+  bottom: 4em;
+  left: 2em;
+  color: black;
+  background-color: white;
+  padding: 1em;
 }
 
 /*Archiv*/
