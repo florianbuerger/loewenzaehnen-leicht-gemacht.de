@@ -2,56 +2,36 @@
 layout: default
 ---
 
-<div class="date-archiv">
-  <h2>August 2016</h2>
-</div>
-<section class="container-archiv">
-  <div class="img-archiv">
-    <a href="">
-      <img src="/img/nz-3.jpg" alt="" />
-      <p>NZ Tiere</p>
-    </a>
-  </div>
-  <div class="img-archiv">
-    <a href="">
-      <img src="/img/nz-3.jpg" alt="" />
-      <p>NZ Tiere</p>
-    </a>
-  </div>
-  <div class="img-archiv">
-    <a href="">
-      <img src="/img/nz-3.jpg" alt="" />
-      <p>NZ Tiere</p>
-    </a>
-  </div>
-  <div class="img-archiv">
-    <a href="">
-      <img src="/img/nz-3.jpg" alt="" />
-      <p>NZ Tiere</p>
-    </a>
-  </div>
-</section>
 
-<div class="date-archiv">
-  <h2>Juli 2016</h2>
+{% for post in site.posts %}
+  {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
+  {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
+    {% if month != nmonth %}
+      {% if forloop.index != 1 %} {% endif %}
+      <h2>{% assign m = post.date | date: "%-m" %}
+        {% case m %}
+          {% when '1' %}Januar
+          {% when '2' %}Februar
+          {% when '3' %}März
+          {% when '4' %}April
+          {% when '5' %}Mai
+          {% when '6' %}Juni
+          {% when '7' %}Juli
+          {% when '8' %}August
+          {% when '9' %}September
+          {% when '10' %}Oktober
+          {% when '11' %}November
+          {% when '12' %}Dezember
+        {% endcase %}
+        {{ post.date | date: "%Y" }}
+      </h2>
+    {% endif %}
+<div class="container-archiv">
+  <a href="{{ post.url }}">
+      <div class="img-archiv">
+          <img src="{{ post.image }}" alt="">
+      </div>
+    <h3>{{ post.title }} - {{ post.subtitle }}</h3>
+  </a>
 </div>
-<section class="container-archiv">
-  <div class="img-archiv">
-    <a href="">
-      <img src="/img/nz-3.jpg" alt="" />
-      <p>NZ Tiere</p>
-    </a>
-  </div>
-  <div class="img-archiv">
-    <a href="">
-      <img src="/img/nz-3.jpg" alt="" />
-      <p>NZ Tiere</p>
-    </a>
-  </div>
-  <div class="img-archiv">
-    <a href="">
-      <img src="/img/nz-3.jpg" alt="" />
-      <p>NZ Tiere</p>
-    </a>
-  </div>
-</section>
+{% endfor %}

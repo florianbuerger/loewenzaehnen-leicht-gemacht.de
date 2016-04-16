@@ -3,13 +3,18 @@ layout: default
 ---
 
 {% for post in site.posts limit:3 %}
-<div class="index-box">
-  <a href="{{ post.url }}">
-    <div class="index-img"style="background-image: url('{{ post.image }}')">
-        <h3>{{ post.date| date: "%-d %B %Y"}}</h3>
-        <h1>{{ post.title }}</h1>
-        <h2>{{ post.subtitle }}</h2>
+  
+{% assign months = "Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember" | split: "|" %}
+{% assign m = post.date | date: "%-m" | minus: 1 %}
+{% assign day = post.date | date: "%d" %}
+{% assign month = months[m] %}
+{% assign year = post.date | date: "%Y" %}
+
+<a href="{{ post.url }}">
+    <div class="index-img" style="background-image: url('{{ post.image }}')">
+	        <h3>{{ day }} {{ month }} {{ year }}</h3>
+	        <h1>{{ post.title }}</h1>
+	        <h2>{{ post.subtitle }}</h2>
     </div>
   </a>
-</div>
 {% endfor %}

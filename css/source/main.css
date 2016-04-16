@@ -91,21 +91,22 @@ header {
   width: 100%;
 }
 
+
+
 /*
   Index
 */
-.index-box a {
-  color: white;
-}
-
 .index-img {
   height: 40em;
-  padding: 2em;
   margin-bottom: 2em;
   background-size: cover;
 }
 
-/*posts*/
+
+
+/*
+posts
+*/
 .container-gallery {
   flex-flow: row wrap;
   display: flex;
@@ -138,9 +139,7 @@ header {
 }
 
 /*Archiv*/
-.date-archiv {
-  align-items: flex-start;
-}
+
 
 .container-archiv {
   display: flex;
@@ -151,13 +150,16 @@ header {
 .img-archiv {
   flex: auto;
   margin: 1em 1em 0 0;
-  max-width: 300px;
 }
 
 .img-archiv img {
   width: 100%;
   height: auto;
 }
+
+
+
+
 
 /*more*/
 .themes-more {
