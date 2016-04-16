@@ -18,13 +18,14 @@ gulp.task('css', function() {
       cssnano()
     ]
 
-    return gulp.src('css/*.css')
+    return gulp.src('css/source/*.css')
         .pipe( sourcemaps.init() )
         .pipe( postcss(processors) )
         .pipe( sourcemaps.write('.') )
         .pipe( gulp.dest('_site/css') )
-        .pipe( browserSync.stream() );
-});
+        .pipe( browserSync.stream() )
+        .pipe( gulp.dest('css/') )
+      });
 
 /**
  * Build the Jekyll Site
@@ -38,7 +39,7 @@ gulp.task('jekyll-build', function (done) {
 /**
  * Rebuild Jekyll & do page reload
  */
-gulp.task('jekyll-rebuild', ['jekyll-build', 'css'], function () {
+gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
     browserSync.reload();
 });
 
