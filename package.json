@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Travel blog from Verena Ortlieb & Florian Buerger",
   "main": "gulpfile.js",
-  "dependencies": {},
+  "dependencies": {
+    "normalize.css": "^4.1.1"
+  },
   "devDependencies": {
     "basscss": "^8.0.1",
     "browser-sync": "^2.11.2",

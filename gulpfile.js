@@ -20,9 +20,10 @@ gulp.task('css', function() {
 
     return gulp.src('css/*.css')
         .pipe( sourcemaps.init() )
-        .pipe(postcss(processors))
+        .pipe( postcss(processors) )
         .pipe( sourcemaps.write('.') )
-        .pipe( gulp.dest('_site/css') );
+        .pipe( gulp.dest('_site/css') )
+        .pipe( browserSync.stream() );
 });
 
 /**
@@ -59,7 +60,7 @@ gulp.task('browser-sync', ['jekyll-build', 'css'], function() {
 
 gulp.task('watch', function() {
   // Watch for .css changes adn reload after post-CSS has run
-  gulp.watch(['css/*'], ['css-reload']);
+  gulp.watch(['css/*'], ['css']);
   // Watch .html files and posts
   gulp.watch(['*.html', '_includes/*.html', '_layouts/*.html', '*.md', '*.markdown', '_posts/*'], ['jekyll-rebuild']);
 });
