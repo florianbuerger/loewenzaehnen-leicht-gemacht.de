@@ -43,7 +43,9 @@ a:hover {
   color: orange;
 }
 
-/*header*/
+/*
+header
+*/
 header {
   display: flex;
   flex-direction: column;
@@ -72,8 +74,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2em 2em 1em 2em;
-  width: 90%;
+  padding: 2em 1em 1em 1em;
 }
 
 .header-nav a {
@@ -88,7 +89,8 @@ header {
   .header-nav {
     justify-content: space-around;
     flex-direction: row;
-    padding: 4em 2em 1em 2em;
+    padding: 4em 0 1em 0;
+    width: 100%;
   }
 
 }
@@ -182,23 +184,35 @@ posts
 /*
 Archiv
 */
+.archiv-all {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (--breakpoint-sm) {
+.archiv-all {
+    width: 80%;
+    margin: 0 auto;
+    }
+}
+
 .container-archiv {
-  flex-flow: row wrap;
+  flex: row;
   display: flex;
   margin: 2em 0;
 }
 
 .container-archiv div {
-  flex: auto;
-  width: 300px;
+  flex: row;
+  width: 15em;
   margin-right: .5vw;
 }
 
 .container-archiv div img{
-/*  width: 100%;
-*/  height: auto;
-  max-height: 300px;
+  width: 100%;
+  height: auto;
 }
+
 
 
 
@@ -207,61 +221,110 @@ more
 */
 .themes-more {
   margin-bottom: 5em;
+  margin-top: 3em;
 }
 
 .themes-more img {
   width: 400px;
 }
 
+.more-all {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (--breakpoint-sm) {
+.more-all {
+    width: 80%;
+    margin: 0 auto;
+    }
+}
 
 
 
+/*
+about
+*/
+.about-all {
+  width: 90%;
+  margin: 0 auto;
+}
 
-/*about*/
 .img-about-left {
-  margin: 0 2em 2em 0;
-  float: left;
-  width: 350px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .img-about-right {
-  margin: 0 0 2em 2em;
-  float: right;
-  width: 350px;
+  margin: 0 auto;
+  width: 100%;
 }
+
+@media (--breakpoint-sm) {
+  .about-all {
+    width: 80%;
+    margin: 0 auto;
+    }
+
+  .img-about-left {
+    margin: 0 2em 1em 0;
+    float: left;
+    max-height: 350px;
+    width: auto;
+  }
+
+  .img-about-right {
+    margin: 0 0 2em 1em;
+    float: right;
+    max-height: 350px;
+    width: auto;  }
+}
+
+
+
 
 /*
 kontakt
 */
-.img-kontakt {
-  width: 30em;
-}
-
-.img-kontakt img {
-  width: 100%;
+.kontakt-all {
+  width: 90%;
   margin: 0 auto;
 }
 
-
-.text-kontakt {
-  width: 75%;
-  margin: 1em auto;
+@media (--breakpoint-sm) {
+.kontakt-all {
+    width: 80%;
+    margin: 0 auto;
+    }
 }
 
+.kontakt-all img {
+  max-width: 100%;
+  max-height: 40em;
+}
 
 /*
 footer
 */
+footer a {
+  color: white;
+}
+
 footer {
   background-color: black;
   color: white;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 3em 4em;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 4em;
   margin-top: 2em;
+  line-height: 2em;
 }
 
-footer a {
-  color: white;
+@media (--breakpoint-sm) {
+footer {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3em 4em;
+}
 }
