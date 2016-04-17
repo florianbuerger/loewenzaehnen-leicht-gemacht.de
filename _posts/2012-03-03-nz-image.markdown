@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Neuseeland"
+subtitle: "Bilder Bilder Bilder"
+date:   2012-03-03
+image: /img/nz-i-9.jpg
+---
+
+Und weils so schön ist hier noch ein paar Bilder von unserer Zeit in Neuseeland. Man könnte natürlich zu jedem sehr viel schreiben und berichten, aber manchmal ist es auch einfach schön nur zu schauen.
+
+<div class="container-gallery">
+<div><img src="/img/nz-i-1.jpg" alt></div>
+<div><img src="/img/nz-i-2.jpg" alt></div>
+<div><img src="/img/nz-i-3.jpg" alt></div>
+<div><img src="/img/nz-i-4.jpg" alt></div>
+<div><img src="/img/nz-i-5.jpg" alt></div>
+<div><img src="/img/nz-i-6.jpg" alt></div>
+<div><img src="/img/nz-i-7.jpg" alt></div>
+<div><img src="/img/nz-i-8.jpg" alt></div>
+</div>

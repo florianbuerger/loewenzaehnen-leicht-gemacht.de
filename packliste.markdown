@@ -4,7 +4,6 @@ title:  "Packliste"
 subtitle: "Was haben wir eigentlich alles dabei?"
 date:   2016-06-30
 image: /img/rucksack.png
-categories: mehr packliste
 permalink: /packliste/
 ---
 
