@@ -184,36 +184,43 @@ posts
 /*
 Archiv
 */
-.archiv-all {
+.archive {
   width: 90%;
   margin: 0 auto;
+  display: flex;
+  flex: column;
 }
 
 @media (--breakpoint-sm) {
-.archiv-all {
+  .archive {
     width: 80%;
-    margin: 0 auto;
-    }
+  }
 }
 
-.container-archiv {
-  flex: row;
+.archive-section-header {
+  margin-top: 3em;
+  margin-bottom: 0.5em;
+}
+.archive-month {
   display: flex;
-  margin: 2em 0;
+  flex-wrap: wrap;
 }
-
-.container-archiv div {
-  flex: row;
-  width: 15em;
-  margin-right: .5vw;
+.archive-post {
+  max-width: 20em;
+  background-color: blue;
+  padding-right: 2em;
 }
-
-.container-archiv div img{
+.archive-post:last-child {
+  padding-right: 0;
+}
+.archive-post img {
   width: 100%;
   height: auto;
 }
-
-
+.archive-post-title {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
 
 
 /*

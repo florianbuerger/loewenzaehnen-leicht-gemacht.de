@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Neuseeland"
+subtitle: "Tiere 2"
+date:   2012-02-14
+image: /img/nz-t-1.jpg
+categories: neuseeland
+---
+
+Eine der tollsten Dinge an Neuseeland sind die vielen Tiere. Hier sind nicht eingesperrte Tiere im Zoo gemeint sondern Tiere in freier Wildbahn, die man beobachten kann, wenn man zur rechten Zeit am rechten Ort ist. 
+
+So kann man in Akaroa mit dem Boot aufs freie Meer fahren und Delfine um sich rum schwimmen lassen. Anfassen nicht erlaubt, da dies wilde Delfine sind, deren Haut darunter sehr leden würde. Aber es ist trotzdem ein wunderbares und sonderbare Gefühl wenn plötzlich 3 Delfine auf einen zuschwimmen und rest kurz vorher entscheiden ob sie links oder rechts an einem vorbei schwimmen. Da vergisst man kurz, dass das Wasser trotz dickem Tauchanzug wahnsinnig kalt ist.
+
+Oder man steht vor Sonnenaufgang auf, fährt zu einem Aussichtshäuschen und lacht sich schlapp während man beobachtet wie Pinguine die klippe runter torkeln und manch einer doch etwas länger braucht um das Wasser zu erreichen als andere.
+
+<div class="container-gallery">
+<div><img src="/img/nz-t-2.jpg" alt></div>
+<div><img src="/img/nz-t-3.jpg" alt></div>
+<div><img src="/img/nz-t-4.jpg" alt></div>
+<div><img src="/img/nz-t-5.jpg" alt></div>
+<div><img src="/img/nz-t-6.jpg" alt></div>
+</div>
+
+Seehunde und Robben lassen sich an sehr vielen Stellen finden. Meist liegen sie auf Steinen oder am Strand und geniessen die Sonne. 
+
+Nicht zu vergessen sind die Schafe. Vor allem auf der Nordinsel gibt es sehr viele Felder die aus der Ferne weiss statt grün erscheinen, da sie bevölkert sind von Massen an Schafen.
