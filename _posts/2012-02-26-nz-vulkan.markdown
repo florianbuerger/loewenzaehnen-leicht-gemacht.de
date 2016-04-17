@@ -2,9 +2,9 @@
 layout: post
 title:  "Neuseeland"
 subtitle: "Auf dem Vulkan"
-date:   2016-02-26
+date:   2012-02-26
 image: /img/nz-v-1.jpg
-categories: jekyll update
+categories: neuseeland
 ---
 
 Angekommen auf der Nordinsel muss man natürlich auf die Vulkane sehen. 

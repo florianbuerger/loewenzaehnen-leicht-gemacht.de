@@ -195,8 +195,9 @@ Archiv
 }
 
 .container-archiv div img{
-  width: 100%;
-  height: auto;
+/*  width: 100%;
+*/  height: auto;
+  max-height: 300px;
 }
 
 
