@@ -60,8 +60,8 @@ gulp.task('browser-sync', ['jekyll-build', 'css'], function() {
 });
 
 gulp.task('watch', function() {
-  // Watch for .css changes adn reload after post-CSS has run
-  gulp.watch(['css/*'], ['css']);
+  // Watch for .css changes and reload after post-CSS has run
+  gulp.watch(['css/source/*.css'], ['css']);
   // Watch .html files and posts
   gulp.watch(['*.html', '_includes/*.html', '_layouts/*.html', '*.md', '*.markdown', '_posts/*'], ['jekyll-rebuild']);
 });
