@@ -10,14 +10,21 @@
 body {
   font-family: monospace;
   color: black;
-  flex-direction: column;
-  align-items: center;
+}
+.site {
+  /*align-items: center;*/
   margin: 0 auto;
-  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.site-content {
+  flex: 1;
 }
 
 p {
   line-height: 1.75;
+  hyphens: auto;
 }
 
 main {
@@ -41,7 +48,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 5em auto 5em auto;
+  margin: 5em auto;
   flex-wrap: wrap;
   justify-content: center;
   width: 90%;
@@ -66,7 +73,7 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 2em 2em 1em 2em;
-  width: 100%;
+  width: 90%;
 }
 
 .header-nav a {
@@ -102,15 +109,61 @@ header {
   background-size: cover;
 }
 
+.text-on-index-image {
+  position: absolute;
+  color: black;
+  background-color: white;
+  padding: 1em;
+  margin: 25em 2em;
+  opacity: 0.75;
+}
+
 
 
 /*
 posts
 */
+.image-with-text {
+  position: relative;
+  width: 100%;
+}
+
+.image-with-text img{
+  width: 100%;
+  height: auto;
+}
+
+.text-on-image {
+  position: absolute;
+  bottom: 2em;
+  left: 2em;
+  color: black;
+  background-color: white;
+  padding: 1em;
+  opacity: 0.75;
+}
+
+.post p {
+  width: 75%;
+  margin: 1em auto;
+}
+
+.post p:first-child {
+  margin-top: 2em;
+}
+
+
+.post p:first-child::first-letter {
+  float: left;
+  font-size: 5em; 
+  line-height: 0.75em; 
+  padding-right: 0.1em; 
+}
+
 .container-gallery {
   flex-flow: row wrap;
   display: flex;
-  margin: 3em 0;
+  margin: 2em 0;
 }
 
 .container-gallery div {
@@ -124,51 +177,44 @@ posts
   height: auto;
 }
 
-.image-with-text {
-  position: relative;
-  width: 100%;
-}
-
-.text-on-image {
-  position: absolute;
-  bottom: 4em;
-  left: 2em;
-  color: black;
-  background-color: white;
-  padding: 1em;
-}
-
-/*Archiv*/
 
 
+/*
+Archiv
+*/
 .container-archiv {
-  display: flex;
   flex-flow: row wrap;
-  margin-bottom: 4em;
+  display: flex;
+  margin: 2em 0;
 }
 
-.img-archiv {
+.container-archiv div {
   flex: auto;
-  margin: 1em 1em 0 0;
+  width: 300px;
+  margin-right: .5vw;
 }
 
-.img-archiv img {
+.container-archiv div img{
   width: 100%;
   height: auto;
 }
 
 
 
-
-
-/*more*/
+/*
+more
+*/
 .themes-more {
   margin-bottom: 5em;
 }
 
 .themes-more img {
-  width: 300px;
+  width: 400px;
 }
+
+
+
+
 
 /*about*/
 .img-about-left {
@@ -183,12 +229,28 @@ posts
   width: 350px;
 }
 
-/*kontakt*/
+/*
+kontakt
+*/
 .img-kontakt {
-  height: 300px;
+  width: 30em;
 }
 
-/*footer*/
+.img-kontakt img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.text-kontakt {
+  width: 75%;
+  margin: 1em auto;
+}
+
+
+/*
+footer
+*/
 footer {
   background-color: black;
   color: white;
@@ -196,7 +258,7 @@ footer {
   justify-content: space-between;
   align-items: flex-start;
   padding: 3em 4em;
-  clear: both;
+  margin-top: 2em;
 }
 
 footer a {

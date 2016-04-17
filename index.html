@@ -12,9 +12,11 @@ layout: default
 
 <a href="{{ post.url }}">
     <div class="index-img" style="background-image: url('{{ post.image }}')">
-	        <h3>{{ day }} {{ month }} {{ year }}</h3>
+   		 <div class="text-on-index-image">
+	        <h3>{{ day }}. {{ month }} {{ year }}</h3>
 	        <h1>{{ post.title }}</h1>
 	        <h2>{{ post.subtitle }}</h2>
+		  </div>
     </div>
   </a>
 {% endfor %}
