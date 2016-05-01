@@ -19,7 +19,19 @@ body {
   min-height: 100vh;
 }
 .site-content {
+  width: 90%;
+  flex-direction: column;
   flex: 1;
+  align-items: center;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+@media (--breakpoint-sm) {
+  .stie-content {
+    margin-top: 2em;
+  }
 }
 
 p {
@@ -30,16 +42,9 @@ p a {
   text-decoration: underline;
 }
 
-main {
-  width: 90%;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 auto;
-}
-
 a {
   text-decoration: none;
-  color: black;
+  color: inherit;
 }
 
 a:hover {
@@ -49,14 +54,21 @@ a:hover {
 /*
 header
 */
-header {
+.header {
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 5em auto;
   flex-wrap: wrap;
   justify-content: center;
   width: 90%;
+}
+@media (--breakpoint-sm) {
+  .header {
+    margin-top: 5em;
+  }
 }
 
 .header-title {
@@ -67,6 +79,7 @@ header {
 
 .header-subtitle {
   margin-top: -1em;
+  margin-bottom: 0;
 }
 
 .header-subtitle h3 {
@@ -77,7 +90,12 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2em 1em 1em 1em;
+  padding-bottom: 1em;
+}
+@media (--breakpoint-sm) {
+  .header-nav {
+    padding-top: 2em;
+  }
 }
 
 .header-nav a {
