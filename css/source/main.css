@@ -252,11 +252,14 @@ about
 .img-about-left {
   margin: 0 auto;
   width: 100%;
+  float: center;
+
 }
 
 .img-about-right {
   margin: 0 auto;
   width: 100%;
+  float: center;
 }
 
 @media (--breakpoint-sm) {
@@ -276,9 +279,13 @@ about
     margin: 0 0 2em 1em;
     float: right;
     max-height: 350px;
-    width: auto;  }
+    width: auto;  
+  }
 }
 
+.about-signatur {
+  
+}
 
 
 
