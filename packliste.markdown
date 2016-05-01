@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "Packliste"
 subtitle: "Was haben wir eigentlich alles dabei?"
 date:   2016-06-30
