@@ -26,6 +26,9 @@ p {
   line-height: 1.5;
   hyphens: auto;
 }
+p a {
+  text-decoration: underline;
+}
 
 main {
   width: 90%;
