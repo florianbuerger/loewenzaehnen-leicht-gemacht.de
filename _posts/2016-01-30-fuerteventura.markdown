@@ -4,6 +4,7 @@ title:  "Fuerteventura"
 subtitle: "Kurze Auszeit"
 date:   2016-01-30
 image: /img/fuerte-1.jpg
+categorie: blog
 ---
 
 Manchmal reicht auch eine kleine Auszeit, um Energie für den Alltag zu gewinnen. Daher haben wir uns im Januar 2016 kurzfristig für ein paar Tage auf Fuerteventura entschieden. Seit langem das erste Mal mit Hotel und All-Inclusive. 

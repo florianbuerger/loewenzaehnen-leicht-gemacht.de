@@ -4,6 +4,7 @@ title:  "Neuseeland"
 subtitle: "Und wir fahrn fahrn fahrn"
 date:   2012-02-14
 image: /img/nz-f-4.jpg
+categorie: blog
 ---
 
 Was macht man, wenn man 2 Monate in Neuseeland mit dem Camper unterwegs ist? Man fährt. Und fährt. Und fährt.

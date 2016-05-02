@@ -275,9 +275,25 @@ more
   width: 400px;
 }
 
-.about-signatur {
-  
+.mehr-img {
+  height: 20em;
+  margin-bottom: 2em;
+  background-size: cover;
 }
+
+.text-on-mehr-image {
+  position: absolute;
+  color: black;
+  background-color: white;
+  padding: 1em;
+  margin: 8em 2em;
+  opacity: 0.75;
+}
+
+.text-on-mehr-image h2 {
+  font-size: 1.2em;
+}
+
 
 
 /*

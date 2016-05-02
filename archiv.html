@@ -4,6 +4,7 @@ layout: page
 
 <div class="archive">
 {% for post in site.posts %}
+  {% if post.categorie contains 'blog' %}
   {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
   {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
   {% if month != nmonth %}    
@@ -33,5 +34,6 @@ layout: page
       <h4 class="archive-post-title">{{ post.title }} - {{ post.subtitle }}</h4>
     </a>
 </div>
+{% endif %}
 {% endfor %}
 </div>

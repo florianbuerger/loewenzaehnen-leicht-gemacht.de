@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% for post in site.posts limit:3 %}
-  
+  {% if post.categorie contains 'blog' %}
 {% assign months = "Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember" | split: "|" %}
 {% assign m = post.date | date: "%-m" | minus: 1 %}
 {% assign day = post.date | date: "%d" %}
@@ -19,4 +19,5 @@ layout: default
 		  </div>
     </div>
   </a>
+   {% endif %}
 {% endfor %}

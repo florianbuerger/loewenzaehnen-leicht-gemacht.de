@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Packliste"
-subtitle: "Was haben wir eigentlich alles dabei?"
-date:   2016-06-30
-image: /img/rucksack.png
-permalink: /packliste/
+title:  "Minimalismus"
+subtitle: "Oder: wozu brauchen wir das ganze Zeug eigentlich?"
+date:   2016-01-07
+image: /img/nz-t-6.jpg
+permalink: /minimalismus/
+categorie: weiteres
 ---
 
 
