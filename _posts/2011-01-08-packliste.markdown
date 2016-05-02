@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Krankenversicherungen"
-subtitle: "Was braucht man da eigentlich?"
-date:   2016-01-06
+title:  "Packliste"
+subtitle: "Was haben wir eigentlich alles dabei?"
+date:   2011-01-08
 image: /img/rucksack.png
-permalink: /krankenversicherung/
+permalink: /packliste/
 categorie: weiteres
 ---
 

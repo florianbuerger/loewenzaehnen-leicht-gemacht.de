@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Minimalismus"
-subtitle: "Oder: wozu brauchen wir das ganze Zeug eigentlich?"
-date:   2016-01-07
-image: /img/nz-t-6.jpg
-permalink: /minimalismus/
+title:  "Krankenversicherungen"
+subtitle: "Was braucht man da eigentlich?"
+date:   2011-01-06
+image: /img/rucksack.png
+permalink: /krankenversicherung/
 categorie: weiteres
 ---
 

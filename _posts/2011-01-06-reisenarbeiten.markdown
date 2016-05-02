@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Packliste"
-subtitle: "Was haben wir eigentlich alles dabei?"
-date:   2016-01-08
+title:  "Reisen & Arbeiten"
+subtitle: "Nützliches für digitale Nomaden"
+date:   2011-01-06
 image: /img/rucksack.png
-permalink: /packliste/
+permalink: /reisen-arbeiten/
 categorie: weiteres
 ---
 

@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Reisen & Arbeiten"
-subtitle: "Nützliches für digitale Nomaden"
-date:   2016-01-06
-image: /img/rucksack.png
-permalink: /reisen-arbeiten/
+title:  "Minimalismus"
+subtitle: "Oder: wozu brauchen wir das ganze Zeug eigentlich?"
+date:   2011-01-07
+image: /img/nz-t-6.jpg
+permalink: /minimalismus/
 categorie: weiteres
 ---
 
