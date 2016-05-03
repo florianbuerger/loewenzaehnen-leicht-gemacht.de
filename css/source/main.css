@@ -196,9 +196,19 @@ posts
   opacity: 0.75;
 }
 
-.post p {
-  width: 75%;
-  margin: 1em auto;
+.post {
+  max-width: 35em;
+  margin: 0 auto;
+  font-family: Palatino;
+}
+@media (--breakpoint-md) {
+  .post {
+    font-size: 1.3em;
+  }
+}
+
+.post li {
+  line-height: 1.25em;
 }
 
 .post p:first-child {
