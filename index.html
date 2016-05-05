@@ -11,8 +11,8 @@ layout: default
 {% assign year = post.date | date: "%Y" %}
 
 <a href="{{ post.url }}">
-    <div class="index-img" style="background-image: url('{{ post.image }}')">
-   		 <div class="text-on-index-image">
+    <div class="index-img image-with-text" style="background-image: url('{{ post.image }}')">
+   		 <div class="text-on-image">
 	        <h3>{{ day }}. {{ month }} {{ year }}</h3>
 	        <h1>{{ post.title }}</h1>
 	        <h2>{{ post.subtitle }}</h2>
