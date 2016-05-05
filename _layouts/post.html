@@ -5,24 +5,26 @@ layout: default
   <div class="image-with-text">
     <img src="{{ page.image }}" alt="" />
     <div class="text-on-image">
-    <p>{{ page.date | date: "%d" }}.
-    {% assign m = page.date | date: "%-m" %}
-        {% case m %}
-          {% when '1' %}Januar
-          {% when '2' %}Februar
-          {% when '3' %}März
-          {% when '4' %}April
-          {% when '5' %}Mai
-          {% when '6' %}Juni
-          {% when '7' %}Juli
-          {% when '8' %}August
-          {% when '9' %}September
-          {% when '10' %}Oktober
-          {% when '11' %}November
-          {% when '12' %}Dezember
-        {% endcase %}
-        {{ page.date | date: "%Y" }}
-        </p>
+    {% if post.category contains 'blog' %}
+      <p>{{ page.date | date: "%d" }}.
+      {% assign m = page.date | date: "%-m" %}
+          {% case m %}
+            {% when '1' %}Januar
+            {% when '2' %}Februar
+            {% when '3' %}März
+            {% when '4' %}April
+            {% when '5' %}Mai
+            {% when '6' %}Juni
+            {% when '7' %}Juli
+            {% when '8' %}August
+            {% when '9' %}September
+            {% when '10' %}Oktober
+            {% when '11' %}November
+            {% when '12' %}Dezember
+          {% endcase %}
+          {{ page.date | date: "%Y" }}
+      </p>
+    {% endif %}
     <h1>{{ page.title }}</h1>
     <h2>{{ page.subtitle }}</h2>
     </div>

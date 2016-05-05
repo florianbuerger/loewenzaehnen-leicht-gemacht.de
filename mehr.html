@@ -5,12 +5,12 @@ title: weitere themen
 <div class="more-all">
 <h2>Weitere Themen</h2>
 
-<p class="text-more">Wenn man auf große Reise geht, dann gibt es viel zu bedenken und zu planen. Hier findet ihr ein paar hilfreiche Tipps und Tricks, sowie Gedanken die wir uns gemacht haben und Themen über die wir einfach schreiben wollten. <br>
+<p>Wenn man auf große Reise geht, dann gibt es viel zu bedenken und zu planen. Hier findet ihr ein paar hilfreiche Tipps und Tricks, sowie Gedanken die wir uns gemacht haben und Themen über die wir einfach schreiben wollten. <br>
 Wenn ihr mehr Fragen habt oder euch einfach austauschen wollte, dann könnt ihr euch gerne bei uns melden. Am Besten per <a href="">Mail</a>.</p>
 
 
 {% for post in site.posts %}
-  {% if post.categorie contains 'weiteres' %}
+  {% if post.category contains 'weiteres' %}
 <!-- {% assign months = "Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember" | split: "|" %}
 {% assign m = post.date | date: "%-m" | minus: 1 %}
 {% assign day = post.date | date: "%d" %}
