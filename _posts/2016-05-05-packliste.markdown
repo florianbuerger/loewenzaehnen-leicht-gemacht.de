@@ -2,10 +2,10 @@
 layout: post
 title:  "Packliste"
 subtitle: "Was haben wir eigentlich alles dabei?"
-date:   2011-01-08
+date:   2016-05-05
 image: /img/rucksack.png
 permalink: /packliste/
-categorie: weiteres
+categories: weiteres
 ---
 
 Bevor man in den Urlaub fährt packt man seinen Koffer. Meist packt man diesen dann auch noch viel zu voll und gebraucht wird sowieso nichtmal die Hälfte. Aber da ist ja auch ok, wenn man 2 Wochen in den Urlaub fährt. Wieder zuhause wird dann alles gewaschen und wieder in den Schrank gepackt. Bei uns ist das ganze dann aber doch etwas schwieriger.

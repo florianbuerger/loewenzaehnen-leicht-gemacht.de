@@ -4,7 +4,7 @@ title:  "Neuseeland"
 subtitle: "Bilder Bilder Bilder"
 date:   2012-03-03
 image: /img/nz-i-9.jpg
-categorie: blog
+categories: blog
 ---
 
 Und weils so schön ist hier noch ein paar Bilder von unserer Zeit in Neuseeland. Man könnte natürlich zu jedem sehr viel schreiben und berichten, aber manchmal ist es auch einfach schön nur zu schauen.

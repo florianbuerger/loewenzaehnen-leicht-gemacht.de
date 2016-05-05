@@ -5,7 +5,7 @@ subtitle: "Nützliches für digitale Nomaden"
 date:   2011-01-06
 image: /img/rucksack.png
 permalink: /reisen-arbeiten/
-categorie: weiteres
+categories: weiteres
 ---
 
 

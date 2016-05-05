@@ -5,7 +5,7 @@ subtitle: "Oder: wozu brauchen wir das ganze Zeug eigentlich?"
 date:   2011-01-07
 image: /img/nz-t-6.jpg
 permalink: /minimalismus/
-categorie: weiteres
+categories: weiteres
 ---
 
 Von Minimalismus haben die meisten schon einmal etwas gehört. Und jeder hat auch eine grobe Vorstellung, was sich dahinter verbirgt. Wenn jemand sagt, dass er Minimalist ist, oder minimalistisch lebt, dann denken die meisten Menschen, dass er wenig Dinge hat. Die Wohnung stellt man sich sehr leer und weiss vor und vermutlich hängen im Kleiderschrank auch nur 2 paar Jeans und 3 schwarze T-Shirts.

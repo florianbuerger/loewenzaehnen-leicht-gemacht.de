@@ -4,7 +4,7 @@ title:  "Berchtesgaden"
 subtitle: "Klettern"
 date:   2015-06-26
 image: /img/berchtesgaden-1.jpg
-categorie: blog
+categories: blog
 ---
 
 Klettern Klettern

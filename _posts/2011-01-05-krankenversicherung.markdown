@@ -5,7 +5,7 @@ subtitle: "Was braucht man da eigentlich?"
 date:   2011-01-06
 image: /img/rucksack.png
 permalink: /krankenversicherung/
-categorie: weiteres
+categories: weiteres
 ---
 
 

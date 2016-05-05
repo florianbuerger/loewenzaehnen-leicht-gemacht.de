@@ -4,7 +4,7 @@ title:  "Barcelona"
 subtitle: "Wochenende in der Sonne"
 date:   2015-06-13
 image: /img/barcelona-1.jpg
-categorie: blog
+categories: blog
 ---
 
 Sonne Sonne

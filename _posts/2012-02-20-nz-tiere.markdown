@@ -4,7 +4,7 @@ title:  "Neuseeland"
 subtitle: "Tiere"
 date:   2012-02-20
 image: /img/nz-t-1.jpg
-categorie: blog
+categories: blog
 ---
 
 Eine der tollsten Dinge an Neuseeland sind die vielen Tiere. Hier sind nicht eingesperrte Tiere im Zoo gemeint sondern Tiere in freier Wildbahn, die man beobachten kann, wenn man zur rechten Zeit am rechten Ort ist. 
