@@ -13,7 +13,7 @@
   font-family: var(--article-font);
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-webkit op  color: #333;
+  webkit op  color: #333;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -269,14 +269,6 @@ Archiv
 /*
 more
 */
-.themes-more {
-  margin-bottom: 5em;
-  margin-top: 3em;
-}
-
-.themes-more img {
-  width: 400px;
-}
 
 .mehr-img {
   height: 20em;
@@ -291,6 +283,7 @@ more
   padding: 1em;
   margin: 8em 2em;
   opacity: 0.75;
+  max-width: 30em;
 }
 
 .text-on-mehr-image h2 {

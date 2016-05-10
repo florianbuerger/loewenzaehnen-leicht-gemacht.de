@@ -5,17 +5,23 @@ title: weitere themen
 
 <h2>Weitere Themen</h2>
 
-<p>Wenn man auf große Reise geht, dann gibt es viel zu bedenken und zu planen. Hier findet ihr ein paar hilfreiche Tipps und Tricks, sowie Gedanken die wir uns gemacht haben und Themen über die wir einfach schreiben wollten.</p>
+<p>Wenn man auf große Reise geht, dann gibt es viel zu bedenken und zu planen. Hier findet ihr hilfreiche Tipps und Tricks, sowie Gedanken die wir uns gemacht haben und Themen über die wir einfach schreiben wollten.</p>
 
-{% for post in site.posts %}
-  {% if post.category contains 'weiteres' %}
-<a href="{{ post.url }}">
-    <div class="mehr-img" style="background-image: url('{{ post.image }}')">
-       <div class="text-on-mehr-image">
-          <h1>{{ post.title }}</h1>
-          <h2>{{ post.subtitle }}</h2>
-      </div>
-    </div>
-</a>
-   {% endif %}
+{% for category in site.categories %}
+  {% if category.first contains 'weiteres' %}  
+    {% for posts in category %}
+      {% for post in posts %}
+        {% if post.url %}
+         <a href="{{ post.url }}">
+   	 		<div class="mehr-img" style="background-image: url('{{ post.image }}')">
+      		 <div class="text-on-mehr-image">
+       	      <h1>{{ post.title }}</h1>
+              <h2>{{ post.subtitle }}</h2>
+      		 </div>
+   		    </div>
+		 </a>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  {% endif %}
 {% endfor %}
