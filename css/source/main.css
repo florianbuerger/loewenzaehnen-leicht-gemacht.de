@@ -234,6 +234,14 @@ posts
   height: auto;
 }
 
+.post h2 {
+  margin-top: 2em;
+}
+
+.post h3 {
+  margin-top: 1.5em;
+}
+
 
 
 /*
