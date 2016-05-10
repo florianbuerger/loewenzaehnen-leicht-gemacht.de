@@ -2,29 +2,20 @@
 layout: page
 title: weitere themen
 ---
-<div class="more-all">
+
 <h2>Weitere Themen</h2>
 
-<p>Wenn man auf große Reise geht, dann gibt es viel zu bedenken und zu planen. Hier findet ihr ein paar hilfreiche Tipps und Tricks, sowie Gedanken die wir uns gemacht haben und Themen über die wir einfach schreiben wollten. <br>
-Wenn ihr mehr Fragen habt oder euch einfach austauschen wollte, dann könnt ihr euch gerne bei uns melden. Am Besten per <a href="">Mail</a>.</p>
-
+<p>Wenn man auf große Reise geht, dann gibt es viel zu bedenken und zu planen. Hier findet ihr ein paar hilfreiche Tipps und Tricks, sowie Gedanken die wir uns gemacht haben und Themen über die wir einfach schreiben wollten.</p>
 
 {% for post in site.posts %}
   {% if post.category contains 'weiteres' %}
-<!-- {% assign months = "Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember" | split: "|" %}
-{% assign m = post.date | date: "%-m" | minus: 1 %}
-{% assign day = post.date | date: "%d" %}
-{% assign month = months[m] %}
-{% assign year = post.date | date: "%Y" %}
- -->
 <a href="{{ post.url }}">
     <div class="mehr-img" style="background-image: url('{{ post.image }}')">
        <div class="text-on-mehr-image">
-<!--           <h3>{{ day }}. {{ month }} {{ year }}</h3>
- -->          <h1>{{ post.title }}</h1>
-              <h2>{{ post.subtitle }}</h2>
+          <h1>{{ post.title }}</h1>
+          <h2>{{ post.subtitle }}</h2>
       </div>
     </div>
-  </a>
+</a>
    {% endif %}
 {% endfor %}
