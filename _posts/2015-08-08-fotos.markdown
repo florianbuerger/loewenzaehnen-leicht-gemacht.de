@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Fotos"
+subtitle: "Unsere Tipps für schöne Bilder unterwegs"
+date:   2015-08-08
+image: /img/old-camera.jpg
+permalink: /fotos/
+categories: weiteres
+---
+
+Zu einer Reise gehören auch immer schöne Bilder. Diese können aus den unterschiedlichsten Gründen gemacht werden. Beispielsweise um sie anderen zu zeigen, als eigene Erinnerungsstücke, um sie auf Instagram zu posten oder für einen Blog. 
+
+Wir haben uns gegen eine Kamera entschieden und sogar unsere wunderbare Spiegelreflexkamera vor der Abreise verkauft. Warum? Weil wir alles tragen müssen, was wir mitnehmen und eine Kamera einfach zu viel Platz weg nimmt. Und um ehrlich zu sein machen die Handys heute einfach auch schon ziemlich gute Bilder. Klar werden beispielsweise Aufnahmen bei schlechterem Licht nicht ganz so gut, aber für Reisebilder reicht es alle male.
+
+
+### Unsere "Kameras"
+
+Wir haben 2 iPhones dabei. Als App-Programmierer muss man natürlich immer ein aktuelles Gerät haben, daher können wir meist die beste verfügbare Handykamera nutzen.  
+
+## Bildbearbeitung von unterwegs
+
+Natürlich wird nicht jedes Bild atemberaubend schön. Sei es die Belichtung, die irgendwie nicht ganz perfekt geworden ist oder eine Kleinigkeit, die man lieber weg-retuschiert haben möchte. Zum Glück gibt es immer mehr Apps, welche dafür gemacht sind am Handy Bilder zu bearbeiten.
+
+Hier findet ihr eine Auswahl an Programmen, die wir nutzen um unsere Bilder noch etwas besser zu machen.
+
+### Photos
+
+Das Bildprogramm von Apple selbst bietet die Möglichkeit der Bildbearbeitung. Hier kann durch verschiedene Schieberegler schnell und einfach Verbesserungen durchführen. Dies waren auch meine ersten Erfahrungen mit der Bildbearbeitung am Handy. Und gerade weil es so simpel ist und man gleich das Ergebnis sieht macht es auch sehr viel Spass. 
+
+
+### Mextures
+
+Seit Beginn dabei und von Anfang an meine Lieblings-Bildbearbeitungs-App. Warum? Beim ersten Öffnen bekommt man eine kurze Einführung, wie die App funktioniert und wo was zu finden ist. Das heisst man muss garnicht lange rumdrücken und suchen sondern weiss einfach gleich, was zu tun ist. Das ist ein grosser Pluspunkt. Auch wird hier das eigentliche Bild nicht verändert. Mextures legt verschiedene Ebenen über das Originalbild, welche man einzeln bearbeiten kann um das Beste Ergebnis zu bekommen.
+
+Mextures bietet eine große Auswahl an verschiedenen Texturen und Filtern die es erlauben sehr kreativ zu werden. Ob man das Foto nur etwas heller machen  oder ein surreales Kunstwerk entstehen lassen möchte ist einem selbst überlassen.
+
+### Pixelmator
+
+Der Pixelmator bietet noch mehr. Hier geht es nicht mehr nur um Filter und Texturen sondern um richtige Bildbearbeitung. Neben der Bearbeitung der Farben können auch ganze Stellen repariert werden. Pixelmator erinnert stark an Photoshop, ist aber meiner Meinung nach doch etwas einfacher zu nutzen. Wenn man also Lust hat richtig in die Bildbearbeitung einzusteigen, dann kann ich den Pixelmator nur empfehlen. Für den einfachen Schnappschuss aber eher weniger. 
+
