@@ -3,7 +3,7 @@ layout: page
 title: location
 ---
 
-## Hier findet ihr uns gerade: <br> Stuttgart, Deutschland
+## Hier findet ihr uns gerade: Stuttgart
 
 ![Weltkarte](/img/world.jpg)
 
