@@ -1,13 +1,14 @@
 ---
 layout: page
-title: kontakt
+title: location
 ---
 
-## Hier findet ihr uns gerade:
-<figure>
-	<img class="img-kontakt" src="/img/nz-t-1.jpg" alt="Weltkarte" />
-</figure>
+## Hier findet ihr uns gerade: <br> Stuttgart, Deutschland
 
-Erreichbar sind wir am Besten per [Mail](mailto:hi@immerguteswetter.de). Je nach Aufenthaltsort oder was wir gerade machen kann es aber etwas dauern bis wir antworten.
+![Weltkarte](/img/world.jpg)
 
-Wir sind auch zu finden auf [Instagram](https://instragram.com/immerguteswetter). Hier gibt es immer die aktuellsten Bilder.
+### Nächster Stopp: Malaisia & Thailand
+
+Los geht es Anfang August 2016. Falls ihr Tipps habt oder einfach so quatschen wollt, freuen wir uns auf eine Nachricht. Erreichbar sind wir am Besten per [Mail](mailto:hi@immerguteswetter.de). 
+
+Nachlesen könnt ihr unsere Abenteuer und Erfahrungen hier in unserem Blog. Außerdem sind wir auch auf [Instagram](https://www.instagram.com/immerguteswetter/){:target="_blank"} zu finden. Hier gibt es immer die neuesten Bilder.
