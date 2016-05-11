@@ -20,14 +20,17 @@ Vor der Abreise passt dann all unser Besitztum in unser Gepäck.
 
 <!-- <div><img src="/img/barcelona-1.jpg" alt></div>
  -->
- Wir haben uns dazu entschieden 2 große Rucksäcke zu nehmen und dazu noch 2 Handgepäckstücke.
- <!-- Marken -->
+Wir haben uns dazu entschieden nur mit Handgepäck zu reisen. Alles was wir mitnehmen passt also in 2 Rucksäcke und 2 kleine Taschen und ist konform mit den Regulationen für das Handgepäck. [In diesem Beitrag](){:target="_blank"} findet ihr genaueres zu unseren Rucksäcken. <!-- Marken der Rucksäcke etc. -->
+Da nur wenig Platz ist brauchen wir viel Ordnung. Daher haben wir uns Packtaschen besorgt. Wie haben dieser hier gewählt. Und nachdem wir beide mit Tetris aufgewachsen sind wird hier dementsprechend gut gepackt.
+<!-- link zu amazon Packtaschen -->
+<!-- Bild von gepacktem Zeug -->
 
 ## Und nun die grosse Frage: Was haben wir dabei??
 
 ### Kleidung von Flo
 <!-- <div><img src="/img/barcelona-1.jpg" alt></div>
- -->- 1 Kapuzenpulli
+ -->
+ - 1 Kapuzenpulli
 - 1 normalen Pulli
 - 2 lange Jeans
 - 3 Paar Socken
@@ -35,7 +38,7 @@ Vor der Abreise passt dann all unser Besitztum in unser Gepäck.
 - 2 Badehosen
 - 2 kurze Hosen
 - 6 T-Shirts
-- 2 kurzärmlige T-Shirts
+- 2 ärmellose T-Shirts
 - 2 Hemden
 - 1 dünne Jacke
 - 1 Paar Flip Flops 
@@ -71,7 +74,8 @@ Vor der Abreise passt dann all unser Besitztum in unser Gepäck.
 
 ### Badzeug
 <!-- <div><img src="/img/barcelona-1.jpg" alt></div>
- -->- Zahnbürsten
+ -->
+- Zahnbürsten
 - Zahnpasta
 - Gesichtscreme
 - Sonnencreme
@@ -81,12 +85,13 @@ Vor der Abreise passt dann all unser Besitztum in unser Gepäck.
 - Rasierer und Ersatzklingen
 - Nagelfeile
 - QTips
+- Tampons
 - Deo
 - Mascara
 - Eyeliner
 - Lippenstift
 - Pinzette
-- Nagelschere
+- Nagelklipser
 - Kleiner Handspiegel
 
 ### Elektronisches
@@ -97,12 +102,13 @@ Vor der Abreise passt dann all unser Besitztum in unser Gepäck.
 - 2 Handys
 - 1 externe Festplatte
 - Ladekabel für alles
+- Internationale Stecker
 - 2 Mäuse und Tastaturen
-- Taschenlampe
 
 ### Reiseapotheke
 <!-- <div><img src="/img/barcelona-1.jpg" alt></div>
- -->- Paracetamol
+ -->
+- Paracetamol
 - ASS Ratiopharm
 - Bepanthen Creme
 - Augentropfen
@@ -114,24 +120,25 @@ Vor der Abreise passt dann all unser Besitztum in unser Gepäck.
 
 ### Sonstige Utensilien
 <!-- <div><img src="/img/barcelona-1.jpg" alt></div>
- -->- 2 Reisehandtücher
+ -->
+- 2 Reisehandtücher
 - 1 Laken
 - 1 Jutebeutel
-- 2 Nackenkissen
+- 2 kleine Kissen/Nackenkissen
 - 2 Sonnenbrillen
 - Notizbücher und Stifte
-- 1 Taschenmesser
 - Wäschebeutel
 - kleine Handtasche
 
 ### Dokumente
 <!-- <div><img src="/img/barcelona-1.jpg" alt></div>
- -->- Pass
+ -->
+- Pass
 - Führerschein
 - Internationaler Führerschein
 - Impfpass
 - EC-Karte
 - Kreditkarte
 - Personalausweis
-- Etwas Bargeld
+- Bargeld
 - Kleiner Geldbeutel

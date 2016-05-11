@@ -26,6 +26,6 @@ Wo wir sind hängt von unserer Laune ab. Um arbeiten zu können und wirklich auc
 	<img src="/img/nz-i-8.jpg" alt="Verena vor einem See">
 </figure>
 
-Falls ihr immer auf dem neuesten Stand sein wollt, dann empfehlen wir euch unseren [Instagram Account](https://www.instagram.com/immerguteswetter/). Hier werden regelmäßig Bilder geposted. Ansonsten sind wir auch jederzeit per <a href="">Mail</a> erreichbar und freuen uns über jede Nachricht.
+Falls ihr immer auf dem neuesten Stand sein wollt, dann empfehlen wir euch unseren [Instagram Account](https://www.instagram.com/immerguteswetter/){:target="_blank"}. Hier werden regelmäßig Bilder geposted. Ansonsten sind wir auch jederzeit per <a href="">Mail</a> erreichbar und freuen uns über jede Nachricht.
 
 ### Viele Grüße, Verena & Flo
