@@ -3,7 +3,7 @@ layout: post
 title:  "Rucksäcke"
 subtitle: "Wo wir unser Zeugs rein packen"
 date:   2016-05-04
-image: /img/rucksack.png
+image: /img/unsere-rucksaecke.png
 permalink: /rucksaecke/
 categories: weiteres
 ---

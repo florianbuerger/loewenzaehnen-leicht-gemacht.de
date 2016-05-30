@@ -18,19 +18,19 @@ Vor der Abreise passt dann all unser Besitztum in unser Gepäck.
 
 ### Unsere Gepäckstücke
 
-<!-- <div><img src="/img/barcelona-1.jpg" alt></div>
- -->
+<div><img src="/img/unsere-rucksaecke.png" alt></div>
+
 Wir haben uns dazu entschieden nur mit Handgepäck zu reisen. Alles was wir mitnehmen passt also in 2 Rucksäcke und 2 kleine Taschen und ist konform mit den Regulationen für das Handgepäck. [In diesem Beitrag](){:target="_blank"} findet ihr genaueres zu unseren Rucksäcken. <!-- Marken der Rucksäcke etc. -->
 Da nur wenig Platz ist brauchen wir viel Ordnung. Daher haben wir uns Packtaschen besorgt. Wie haben dieser hier gewählt. Und nachdem wir beide mit Tetris aufgewachsen sind wird hier dementsprechend gut gepackt.
 <!-- link zu amazon Packtaschen -->
 <!-- Bild von gepacktem Zeug -->
 
-## Und nun die grosse Frage: Was haben wir dabei??
+## Was haben wir dabei??
 
 ### Kleidung von Flo
 <!-- <div><img src="/img/barcelona-1.jpg" alt></div>
  -->
- - 1 Kapuzenpulli
+- 1 Kapuzenpulli
 - 1 normalen Pulli
 - 2 lange Jeans
 - 3 Paar Socken
@@ -129,6 +129,7 @@ Da nur wenig Platz ist brauchen wir viel Ordnung. Daher haben wir uns Packtasche
 - Notizbücher und Stifte
 - Wäschebeutel
 - kleine Handtasche
+- Packing-Cubes
 
 ### Dokumente
 <!-- <div><img src="/img/barcelona-1.jpg" alt></div>
