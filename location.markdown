@@ -7,7 +7,7 @@ title: location
 
 ![Weltkarte](/img/world.jpg)
 
-### Nächster Stopp: Malaisia & Thailand
+### Nächster Stopp: Thailand
 
 Los geht es Anfang August 2016. Falls ihr Tipps habt oder einfach so quatschen wollt, freuen wir uns auf eine Nachricht. Erreichbar sind wir am Besten per [Mail](mailto:hi@immerguteswetter.de). 
 
