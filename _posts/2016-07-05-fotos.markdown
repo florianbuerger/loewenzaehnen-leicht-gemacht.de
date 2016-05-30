@@ -2,7 +2,7 @@
 layout: post
 title:  "Fotos"
 subtitle: "Unsere Tipps für schöne Bilder unterwegs"
-date:   2015-08-08
+date:   2016-05-07
 image: /img/old-camera.jpg
 permalink: /fotos/
 categories: weiteres

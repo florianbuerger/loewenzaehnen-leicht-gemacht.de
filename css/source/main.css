@@ -145,7 +145,6 @@ figure {
   }
 }
 .page figure {
-  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -209,7 +208,6 @@ posts
   margin-top: 2em;
 }
 
-
 .post p:first-child::first-letter {
   float: left;
   font-size: 5em; 
@@ -246,7 +244,7 @@ posts
 
 
 /*
-Archiv
+reiseblog
 */
 .archive {
   display: flex;
@@ -277,7 +275,7 @@ Archiv
 
 
 /*
-more
+reisetipps
 */
 
 .mehr-img {
