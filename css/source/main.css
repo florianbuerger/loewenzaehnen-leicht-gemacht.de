@@ -308,6 +308,17 @@ reisetipps
   font-size: 1.2em;
 }
 
+/*
+  Gallery
+*/
+.instagram__gallery {
+  display: flex;
+  flex-flow: row wrap;
+}
+.instagram__gallery a {
+  margin: 0.5em;
+}
+
 
 /*
 footer
