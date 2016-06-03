@@ -6,10 +6,20 @@ baseurl: ""
 url: "https://immerguteswetter.de"
 
 # Build settings
-markdown: kramdown
-
-# Use pretty URLs
 permalink: pretty
-
+markdown: kramdown
+highlighter: rouge
+include: 
+  - _pages
 exclude:
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - tmp
+  - LICENSE
+  - README
+  - .jekyll-asset-cache
+  - .bundle
   - node_modules

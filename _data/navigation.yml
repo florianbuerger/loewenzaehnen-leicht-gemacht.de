@@ -1,0 +1,11 @@
+pages:
+  - title: "über uns"
+    url: /about/
+  - title: "reiseblog"
+    url: /reiseblog/
+  - title: "tipps"
+    url: /reisetipps/
+  - title: "gallerie"
+    url: /gallerie/
+  - title: "wo wir sind"
+    url: /ort/
