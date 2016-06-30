@@ -4,6 +4,10 @@ url: /gallerie/
 layout: default
 ---
 
-# Instagram
+# Wir auf Instagram -- Immer die neuesten Bilder
 
 {% include instagram-feed.html %}
+
+<br>
+
+# Wir auf flickr -- Alle Bilder in gross

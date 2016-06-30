@@ -82,7 +82,7 @@ header
 
 .header-subtitle {
   margin-top: -1em;
-  margin-bottom: 0;
+  margin-bottom: 1em;
 }
 
 .header-subtitle h3 {
@@ -274,13 +274,52 @@ reiseblog
 .archive-post:last-child {
   padding-right: 0;
 }
+
 .archive-post img {
   width: 100%;
   height: auto;
 }
-.archive-post-title {
-  margin-top: 0.5em;
+
+
+
+.archive-img {
+  height: 20em;
+  width: 20em;
+  max-width: 90%;
   margin-bottom: 2em;
+  background-size: cover;
+}
+
+.text-on-archive-image {
+  position: absolute;
+  color: black;
+  background-color: white;
+  padding: 1em;
+  margin: 1em;
+  opacity: 0.75;
+  /*max-width: 29em;*/
+  width: 25%
+}
+
+
+@media (--breakpoint-md) {
+.archive-img {
+  height: 10em;
+  width: 20em;
+  margin-bottom: 2em;
+  background-size: cover;
+}
+
+.text-on-archive-image {
+  position: absolute;
+  color: black;
+  background-color: white;
+  padding: 1em;
+  margin: 1em;
+  opacity: 0.75;
+  /*max-width: 29em;*/
+  width: 25%
+}
 }
 
 

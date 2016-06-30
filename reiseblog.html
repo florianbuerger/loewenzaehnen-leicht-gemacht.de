@@ -11,8 +11,8 @@ layout: page
           {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
           {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
           {% if month != nmonth %}    
-            </div>
-            <h2 class="archive-section-header">{% assign m = post.date | date: "%-m" %}
+</div>
+<h2 class="archive-section-header">{% assign m = post.date | date: "%-m" %}
               {% case m %}
                 {% when '1' %}Januar
                 {% when '2' %}Februar
@@ -28,15 +28,16 @@ layout: page
                 {% when '12' %}Dezember
               {% endcase %}
               {{ post.date | date: "%Y" }}
-            </h2>
-            <div class="archive-month">
+</h2>
+<div class="archive-month">
           {% endif %}
-          <div class="archive-post">
             <a href="{{ post.url }}">
-              <img src="{{ post.image }}" alt="">
-              <h4 class="archive-post-title">{{ post.title }} - {{ post.subtitle }}</h4>
+            <div class="archive-img" style="background-image: url('{{ post.image }}')">
+             <div class="text-on-archive-image">
+                <h4 class="archive-post-title">{{ post.title }} - {{ post.subtitle }}</h4>
+              </div>
+            </div>
             </a>
-        </div>
         {% endif %}
       {% endfor %}
     {% endfor %}
